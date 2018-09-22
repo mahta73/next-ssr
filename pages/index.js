@@ -29,6 +29,13 @@ const Index = () => (
         <a href = './about'>
             <button> about me </button>
         </a>
+
+        <br />
+        <br />
+
+        <a href = './robots'>
+            <button> Robots </button>
+        </a>
     </div>
 );
 
