@@ -4,6 +4,12 @@ import Link from 'next/link';
 /*
     All you need to do is just have components in your pages directory
 */
+
+/* 
+    <a></a> -> server side rendering
+    <Link></Link> -> client side rendering
+*/
+
 const Index = () => (
     <div>
         <h1>I LOVE COMPUTERS</h1>
@@ -12,10 +18,17 @@ const Index = () => (
 
         <hr />
         <p>If you want to know more about me click here</p>
+
         <Link href = './about'>
-        <button> about me </button>
+            <button> about me </button>
         </Link>
 
+        <br />
+        <br />
+
+        <a href = './about'>
+            <button> about me </button>
+        </a>
     </div>
 );
 
